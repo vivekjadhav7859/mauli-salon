@@ -1,0 +1,12 @@
+.landingContainer {
+  height: 100vh;
+  background-color: black;
+  margin-bottom: 80px;
+}
+@media (max-width: 800px) {
+  .landingContainer {
+    top: 0;
+    height: 50vh;
+    margin-bottom: 40px;
+  }
+}

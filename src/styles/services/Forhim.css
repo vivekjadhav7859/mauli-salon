@@ -1,0 +1,127 @@
+.hisheadmain {
+  background-size: auto;
+  background-color: silver;
+}
+.forhimhead {
+  height: 70vh;
+  width: 100vw;
+  background-image: url("https://images.pexels.com/photos/897262/pexels-photo-897262.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.forhimhead h1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 4em;
+  font-weight: bolder;
+  filter: drop-shadow(5px 5px 3px #000);
+}
+@media screen and (max-width: 600px) {
+  .forhimhead h1 {
+    font-size: 3.5em;
+    margin-top: 80%;
+  }
+}
+
+.hishair1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 15vh;
+}
+.hishair2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 15vh;
+}
+.hisimg {
+  margin-top: 2vh;
+  height: 50vh;
+  width: 25vw;
+  border: 2px solid rgb(123, 123, 169);
+  border-radius: 500px;
+  box-shadow: 5px 5px 5px 5px #ff007f;
+}
+.haircut {
+  background-image: url(../../assets/menhaircut.avif);
+  background-size: cover;
+}
+.beard {
+  background-image: url(../../assets/beard.jpg);
+  background-size: cover;
+}
+.massage {
+  background-image: url(../../assets/Massage.jpg);
+  background-size: cover;
+}
+.color {
+  background-image: url(../../assets/mencolour.jpg);
+  background-size: cover;
+}
+.desc {
+  margin-top: 10vh;
+  height: 30vh;
+  width: 50vw;
+  color: silver;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  color: #ff007f;
+  font-size: 40px;
+  filter: drop-shadow(1px 1px 1px #000);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* text-shadow: 2px 2px #8e8dce; */
+}
+
+@media (max-width: 600px) {
+  .hishair1 {
+    flex-direction: column;
+  }
+  .hishair2 {
+    flex-direction: column-reverse;
+  }
+  .hisimg {
+    margin-top: 10vh;
+    height: 30vh;
+    width: 70vw;
+    margin-left: 5vw;
+  }
+  .desc {
+    /* margin-top: 5vh; */
+    margin-left: 9vw;
+    height: 60vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hishair1 {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hishair2 {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .hisimg {
+    height: 30vh;
+    width: 70vw;
+    margin-left: 5vw;
+  }
+  .desc {
+    /* margin-top: 5vh; */
+    margin-left: 9vw;
+    height: 15vh;
+    width: auto;
+  }
+}

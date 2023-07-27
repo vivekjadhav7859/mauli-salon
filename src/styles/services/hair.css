@@ -1,0 +1,125 @@
+.headmain{
+  background-size: auto;
+  background-color: silver;
+}
+.blank{
+  background-color: silver;
+}
+.hairhead{
+  height:  70vh;
+  width: 100vw;
+  background-image: url(./../../assets/hairmain.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-items: center;
+ justify-content: center;
+}
+.hair1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-left: 5vw;
+   margin-right: 5vw;
+   margin-bottom: 15vh;
+}
+.hair2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-left: 5vw;
+   margin-right: 5vw;
+   margin-bottom: 15vh;
+}
+.img{
+  margin-top: 2vh;
+    height: 50vh;
+    width: 25vw;
+    border: 5px solid #000000;
+    border-radius: 500px;
+    box-shadow: 5px 5px 5px 5px   #000000;
+
+}
+.imgcut{
+  background-image: url(../../assets/hair.jpg);
+  background-size: cover;
+  background-color: #000000;
+}
+.imgcolor{
+  background-image: url(../../assets/haircolor.jpg);
+  background-size: cover;
+}
+.keratin{
+  background-image: url(../../assets/straightning.jpg);
+  background-size: cover;
+   background-repeat: no-repeat;
+}
+.spa{
+  background-image: url(../../assets/spa.avif);
+  background-size: cover;
+   background-repeat: no-repeat;
+}
+.desc{
+     margin-top: 10vh;
+    height: 30vh;
+    width: 50vw; 
+    color: #000000;
+}
+.desc h3{
+    display: flex;
+    justify-content: center;
+    color: #ff007f;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.desc p{
+  font-weight: bold;
+}
+
+  @media (max-width: 600px) {
+    .hairhead{
+      height:  40vh
+    }
+    .hair1 {
+      flex-direction: column;
+    }
+    .hair2 {
+        flex-direction: column-reverse;
+      }
+.img{
+  margin-top: 10vh;
+    height: 30vh;
+    width: 70vw;
+    margin-left: 5vw;
+}
+.desc{
+     margin-top: 5vh;
+     margin-left: 9vw;
+    height: 60vh;
+
+   
+}
+  }
+
+  @media (max-width: 1000px) {
+    .hair1 {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .hair2 {
+        flex-direction: column-reverse;
+        justify-content: center;
+      }
+.img{
+    height: 30vh;
+    width: 70vw;
+    margin-left: 5vw;
+}
+.desc{
+    /* display: flex; */
+     margin-top: 5vh;
+     margin-left: 9vw;
+    height: 15vh;
+    width: auto;    
+}
+  }

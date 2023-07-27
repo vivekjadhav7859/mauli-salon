@@ -1,0 +1,111 @@
+.bodyhead{
+    height:  50vh;
+    width: 100vw;
+    background-image: url(./../../assets/bodymain.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    display: flex;
+    justify-items: center;
+   justify-content: center;
+  }
+  .imgs{
+     
+      height: 50vh;
+      width: 25vw;
+      border: 2px solid rgb(123, 123, 169);
+      border-radius: 20px;
+      box-shadow: 5px 5px 5px 10px   #000000;
+      margin-top: 10vh;
+  
+  }
+  .bodyhead{
+    display: flex;
+    justify-content: center;
+    color: #ff007f;
+    margin-top: 20px;
+  }
+  .manicure{
+    background-image: url(../../assets/hand.jpg);
+    background-size: cover;
+  }
+  .pedicure{
+    background-image: url(../../assets/feet.jpg);
+    background-size: cover;
+  }
+  .gspa{
+    background-image: url(../../assets/girlspa.jpg);
+    background-size: cover;
+  }
+  h3{
+      color: rgb(255, 255, 255);
+  }
+  
+  @media (max-width: 600px) {
+      .hair1 {
+        flex-direction: column;
+      }
+      .hair2 {
+          flex-direction: column-reverse;
+        }
+        .imgs{
+          margin-top: 10vh;
+          height: 30vh;
+          width: 70vw;
+          margin-left: 5vw;
+      }
+  .imgs1{
+      margin-top: 15vh;
+      height: 30vh;
+      width: 70vw;
+      margin-left: 5vw;
+  }
+  .desc{
+      /* display: flex; */
+       margin-top: 5vh;
+       margin-left: 9vw;
+      height: 60vh;
+      /* background-color: #0c0647; */
+      /* width: 90vw;  */
+     
+  }
+    }
+  
+    @media (max-width: 1000px) {
+      .hair1 {
+        flex-direction: column;
+        justify-content: center;
+      }
+      .hair2 {
+          flex-direction: column-reverse;
+          justify-content: center;
+        }
+  .imgs{
+      height: 30vh;
+      width: 70vw;
+      margin-left: 5vw;
+  }
+  .desc{
+      /* display: flex; */
+       margin-top: 5vh;
+       margin-left: 9vw;
+      height: 15vh;
+      width: auto;    
+  }
+    }
+
+    
+    .body{
+        background-color:silver;
+      }
+    .blank{
+      height: 10vh;
+      width: 100vw;
+      background-color:silver
+    }
+    
+    @media (max-width: 1000px) {
+  .blank{
+      height: 20vh;
+  }    
+  
+    }

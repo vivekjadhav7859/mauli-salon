@@ -1,0 +1,129 @@
+.serviceshead {
+  height: 70vh;
+  width: 100vw;
+  background-image: url(./../../assets/services.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.serviceshead h1 {
+  color: #ff007f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+}
+.heading {
+  margin-top: 25vh;
+  color: #ff007f;
+}
+@media (max-width: 600px) {
+  .serviceshead {
+    height: 40vh;
+  }
+  .heading {
+    margin-left: 10vh;
+    margin-top: 20vh;
+  }
+}
+.serviceshead h1 {
+  font-size: 5em;
+  font-weight: bolder;
+  filter: drop-shadow(5px 2px 3px #000);
+}
+@media (max-width: 600px) {
+  .serviceshead h1 {
+    font-size: 4em;
+    font-weight: bolder;
+    filter: drop-shadow(5px 2px 3px #000);
+  }
+}
+.btncont {
+  margin-left: 33vw;
+  gap: 5px;
+  padding-bottom: 30px;
+}
+
+.back {
+  background-color: #000000;
+}
+
+/* For her */
+.imgart {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+@media (max-width: 800px) {
+  .imgart {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.head {
+  display: flex;
+  justify-content: left baseline;
+  color: silver;
+  margin-top: 40vh;
+}
+.cardhead {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 5px; */
+  text-align: center;
+  padding-left: 10vw;
+  /* margin-left: 25vw; */
+  color: silver;
+  width: 80%;
+  padding-bottom: 30px;
+}
+@media (max-width: 800px) {
+  .cardhead {
+    padding-left: 0;
+    justify-content: center;
+    margin: 0px 0px;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+  }
+}
+
+/* //Forher */
+.forher {
+  background-color: silver;
+}
+.herhead {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  color: rgb(0, 0, 0);
+}
+.card {
+  width: 24rem;
+  margin: 7px 7px;
+}
+.cardhead h2 {
+  color: #ff007f;
+  /* text-shadow:1px 1px silver; */
+}
+@media (max-width: 800px) {
+  .column1 {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

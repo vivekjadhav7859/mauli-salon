@@ -1,0 +1,84 @@
+.bg-background {
+  background: linear-gradient(black, #171717);
+}
+.first_col {
+  background-color: #737373;
+  height: 550px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  position: relative;
+  width: 550px;
+  left: 155px;
+  top: 171px;
+  border-radius: 20px;
+}
+.first_col h1 {
+  color: black;
+}
+
+.img-fluid {
+  border-radius: 20px;
+}
+
+.row-last {
+  width: 70% !important;
+  position: relative !important;
+  left: 350px;
+  top: 50px;
+  height: 200px;
+  padding-bottom: 100px !important;
+  background-color: #737373;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.row-last h4 {
+  color: #000000;
+}
+.btn-primary {
+  background: linear-gradient(#a30051, #ff2e96);
+  border: #000000;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(#ff007f, #ff8ac4) !important;
+  color: black;
+}
+
+.form-label {
+  color: white;
+}
+.form-group {
+  color: white;
+}
+
+.form-control {
+  height: 52px;
+  background: #797979;
+  font-size: 14px;
+  border-radius: 2px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid rgb(17, 10, 10);
+  border-radius: 10px;
+}
+.form-control[type="text"]:focus {
+  border: 2px solid rgb(32, 19, 19);
+}
+@media only screen and (max-width: 600px) {
+  .first_col {
+    position: initial;
+    left: 0 !important;
+  }
+
+  .sec_col {
+    order: 1 !important;
+  }
+
+  .row-last {
+    left: 0 !important;
+    width: 100% !important;
+    height: 500px !important;
+    top: 0 !important;
+    margin-bottom: 30px;
+  }
+}
